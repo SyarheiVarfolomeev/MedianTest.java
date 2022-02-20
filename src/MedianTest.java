@@ -3,7 +3,6 @@ import org.junit.Test;
 
 public class MedianTest {
 
-
     @Test
     public void testIntMedian() {
         float result = Median.median(new int[] { 5, 5, 5, 100, 5, 5, 5, 5 });
@@ -45,5 +44,4 @@ public class MedianTest {
         double result = Median.median(new double[] { 0.1, 0.2, 0.3, 0.4, 0.2, 0.5});
         Assert.assertEquals(0.25, result, 0);
     }
-
 }
